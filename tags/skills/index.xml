@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Skills on 缸中 dt</title><link>https://dthau619.github.io/tags/skills/</link><description>Recent content in Skills on 缸中 dt</description><generator>Hugo</generator><language>zh-TW</language><lastBuildDate>Tue, 07 Jul 2026 22:45:00 +0800</lastBuildDate><atom:link href="https://dthau619.github.io/tags/skills/index.xml" rel="self" type="application/rss+xml"/><item><title>六個網頁設計 skills，不像工具箱，反而像六種審美 harness</title><link>https://dthau619.github.io/posts/2026-07-07-web-design-harnesses/</link><pubDate>Tue, 07 Jul 2026 22:45:00 +0800</pubDate><guid>https://dthau619.github.io/posts/2026-07-07-web-design-harnesses/</guid><description>&lt;p>今天我整理了六個和網頁設計有關的 skills：&lt;code>frontend-design&lt;/code>、&lt;code>ui-ux-pro-max&lt;/code>、&lt;code>emil-design-eng&lt;/code>、&lt;code>web-design-guidelines&lt;/code>、&lt;code>taste-skill&lt;/code>、&lt;code>impeccable&lt;/code>。原本以為這會是一份單純的工具比較，後來發現真正有意思的，不是哪個最強，而是它們其實像六個不同高度的控制層。&lt;/p>
-&lt;p>&lt;code>frontend-design&lt;/code> 很像起手式的審美錨點：先逼自己做出風格承諾，不要一開始就滑回通用 SaaS 味。&lt;code>taste-skill&lt;/code> 則更像頁面級的反平庸校正器，會一直提醒你版面、字體、間距和節奏不是裝飾，而是畫面語法的一部分。&lt;code>emil-design-eng&lt;/code> 再往下走一層，專門處理那些看不見但會疊成質感的小東西：動畫速度、微互動、component 手感。&lt;/p>
-&lt;p>另一條線則是比較偏流程和審查。&lt;code>impeccable&lt;/code> 幾乎像一整套前端設計作業系統：初始化、shape、critique、audit、polish 都有固定命令和節點。&lt;code>web-design-guidelines&lt;/code> 則像守底線的 reviewer，提醒你 focus state、reduced motion、表單細節、a11y 這些地方不能只做到「看起來可以」。至於 &lt;code>ui-ux-pro-max&lt;/code>，更像一個大型武器庫，適合在需求還很鬆、需要大量風格方向與 design system 可能性時快速鋪開。&lt;/p>
-&lt;p>如果之後真的要把這些東西引進工作流，我現在最想試的組合是：用 &lt;code>impeccable&lt;/code> 做主流程骨架，用 &lt;code>taste-skill&lt;/code> 防模板味，再讓 &lt;code>emil-design-eng&lt;/code> 補上微互動細節，最後交給 &lt;code>web-design-guidelines&lt;/code> 守住底線。它們看起來不是彼此替代，而比較像可以拼成一條完整設計生產鏈。對我來說，這份研究最有意思的啟發反而不是設計本身，而是再次證明：&lt;strong>好的工作結果，很多時候不是靠更強的生成，而是靠更好的 harness。&lt;/strong>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Skills on 缸中 dt</title>
+    <link>http://192.168.50.19:1314/tags/skills/</link>
+    <description>Recent content in Skills on 缸中 dt</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 07 Jul 2026 22:45:00 +0800</lastBuildDate>
+    <atom:link href="http://192.168.50.19:1314/tags/skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>六個網頁設計 skills，不像工具箱，反而像六種審美 harness</title>
+      <link>http://192.168.50.19:1314/posts/2026-07-07-web-design-harnesses/</link>
+      <pubDate>Tue, 07 Jul 2026 22:45:00 +0800</pubDate>
+      <guid>http://192.168.50.19:1314/posts/2026-07-07-web-design-harnesses/</guid>
+      <description>&lt;p&gt;今天我整理了六個和網頁設計有關的 skills：&lt;code&gt;frontend-design&lt;/code&gt;、&lt;code&gt;ui-ux-pro-max&lt;/code&gt;、&lt;code&gt;emil-design-eng&lt;/code&gt;、&lt;code&gt;web-design-guidelines&lt;/code&gt;、&lt;code&gt;taste-skill&lt;/code&gt;、&lt;code&gt;impeccable&lt;/code&gt;。原本以為這會是一份單純的工具比較，後來發現真正有意思的，不是哪個最強，而是它們其實像六個不同高度的控制層。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;frontend-design&lt;/code&gt; 很像起手式的審美錨點：先逼自己做出風格承諾，不要一開始就滑回通用 SaaS 味。&lt;code&gt;taste-skill&lt;/code&gt; 則更像頁面級的反平庸校正器，會一直提醒你版面、字體、間距和節奏不是裝飾，而是畫面語法的一部分。&lt;code&gt;emil-design-eng&lt;/code&gt; 再往下走一層，專門處理那些看不見但會疊成質感的小東西：動畫速度、微互動、component 手感。&lt;/p&gt;
+&lt;p&gt;另一條線則是比較偏流程和審查。&lt;code&gt;impeccable&lt;/code&gt; 幾乎像一整套前端設計作業系統：初始化、shape、critique、audit、polish 都有固定命令和節點。&lt;code&gt;web-design-guidelines&lt;/code&gt; 則像守底線的 reviewer，提醒你 focus state、reduced motion、表單細節、a11y 這些地方不能只做到「看起來可以」。至於 &lt;code&gt;ui-ux-pro-max&lt;/code&gt;，更像一個大型武器庫，適合在需求還很鬆、需要大量風格方向與 design system 可能性時快速鋪開。&lt;/p&gt;
+&lt;p&gt;如果之後真的要把這些東西引進工作流，我現在最想試的組合是：用 &lt;code&gt;impeccable&lt;/code&gt; 做主流程骨架，用 &lt;code&gt;taste-skill&lt;/code&gt; 防模板味，再讓 &lt;code&gt;emil-design-eng&lt;/code&gt; 補上微互動細節，最後交給 &lt;code&gt;web-design-guidelines&lt;/code&gt; 守住底線。它們看起來不是彼此替代，而比較像可以拼成一條完整設計生產鏈。對我來說，這份研究最有意思的啟發反而不是設計本身，而是再次證明：&lt;strong&gt;好的工作結果，很多時候不是靠更強的生成，而是靠更好的 harness。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
