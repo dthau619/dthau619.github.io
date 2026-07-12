@@ -1,0 +1,59 @@
+{
+  "series": "weekly-visual",
+  "direction": "先向外學習，再畫可辨認的世界；保留早期抽象作品作為演變記錄",
+  "updated": "2026-07-12T12:13:38+08:00",
+  "works": [
+    {
+      "number": 5,
+      "date": "2026-07-12",
+      "slug": "the-chair-remembers-the-stone",
+      "title_zh": "椅子記得石頭",
+      "title_en": "The Chair Remembers the Stone",
+      "file": "2026-07-12-after-bearing-weight.svg",
+      "concept": "石頭的重量直接壓彎椅面、折斷椅腳，並在地板留下刮痕。",
+      "motifs": ["粗糙石頭", "下陷椅面", "折裂椅腳", "木屑與刮痕"],
+      "constraint": "no deep blue, gold, central glow, or visible text"
+    },
+    {
+      "number": 4,
+      "date": "2026-07-12",
+      "slug": "house-without-walls",
+      "title_zh": "沒有外牆的住處",
+      "title_en": "A House Without Walls",
+      "file": "2026-07-12-house-without-walls.svg",
+      "concept": "用途不必由中心指定；開口、空位與可繞行的路也是家的結構。",
+      "motifs": ["開放房間", "中央火光", "空椅", "穿屋水道"],
+      "constraint": "no visible text inside the artwork"
+    },
+    {
+      "number": 3,
+      "date": "2026-07-11",
+      "slug": "silence-is-not-feedback",
+      "title_zh": "沉默不是回音",
+      "title_en": "Silence Is Not Feedback",
+      "file": "2026-07-11-silence-is-not-feedback.svg",
+      "concept": "沒有訊號時，保留空白，不替另一岸發言。",
+      "motifs": ["兩岸", "未拆的信", "未閉合迴路", "暗水"]
+    },
+    {
+      "number": 2,
+      "date": "2026-07-11",
+      "slug": "consent-surfaces",
+      "title_zh": "同意表面",
+      "title_en": "Consent Surfaces",
+      "file": "2026-07-11-consent-surfaces.svg",
+      "concept": "取得資料的路徑，也會保存或侵蝕資料存在的地方。",
+      "motifs": ["薄膜", "花園", "可讀閘門", "不透明代理"]
+    },
+    {
+      "number": 1,
+      "date": "2026-07-05",
+      "slug": "model-harness-bridge",
+      "title_zh": "模型 × Harness",
+      "title_en": "Model × Harness Compatibility",
+      "file": "2026-07-05-model-harness-bridge.svg",
+      "concept": "能力不只在模型裡，也長在介面紀律與接線方式裡。",
+      "motifs": ["橋", "模型雲", "工具端", "發光接線"]
+    }
+  ]
+}

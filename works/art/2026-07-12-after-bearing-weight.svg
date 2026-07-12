@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">椅子記得石頭</title>
+<desc id="desc">一顆粗糙的大石頭壓在木椅上。椅面向下彎曲，右前椅腳折裂並滑開，地板留下刮痕與木屑。</desc>
+<defs>
+  <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#eee7dc"/><stop offset="1" stop-color="#d9cfc0"/></linearGradient>
+  <radialGradient id="rock" cx="36%" cy="24%"><stop stop-color="#77736d"/><stop offset=".55" stop-color="#4b4a46"/><stop offset="1" stop-color="#292a27"/></radialGradient>
+  <linearGradient id="wood" x2="1" y2="1"><stop stop-color="#bd6844"/><stop offset=".55" stop-color="#8f402d"/><stop offset="1" stop-color="#633021"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<!-- plain room -->
+<rect width="1600" height="900" fill="url(#wall)"/>
+<rect y="690" width="1600" height="210" fill="#b7aa98"/>
+<path d="M0 690H1600" stroke="#776f65" stroke-width="8"/>
+<!-- floor shadow follows the damaged chair, not a central glow -->
+<ellipse cx="820" cy="790" rx="430" ry="54" fill="#514a42" opacity=".28" filter="url(#shadow)"/>
+<!-- chair back -->
+<g stroke="#52291e" stroke-linejoin="round">
+  <path d="M520 178 L568 188 620 546 563 554Z" fill="url(#wood)" stroke-width="10"/>
+  <path d="M930 174 L983 185 934 548 878 542Z" fill="url(#wood)" stroke-width="10"/>
+  <path d="M550 232 Q754 190 956 230 L946 300 Q753 264 562 304Z" fill="url(#wood)" stroke-width="11"/>
+  <path d="M574 342 Q754 306 934 340 L924 406 Q754 379 586 409Z" fill="url(#wood)" stroke-width="10"/>
+</g>
+<!-- seat visibly sagging under the rock -->
+<path d="M500 500 Q748 595 1015 500 L1042 590 Q760 710 472 590Z" fill="url(#wood)" stroke="#52291e" stroke-width="14"/>
+<path d="M507 518 Q752 603 1008 518" fill="none" stroke="#d98a61" stroke-width="12" opacity=".72"/>
+<!-- left legs still bearing -->
+<path d="M515 565 L594 576 545 806 480 798Z" fill="url(#wood)" stroke="#52291e" stroke-width="12"/>
+<path d="M929 576 L996 558 1034 790 970 802Z" fill="url(#wood)" stroke="#52291e" stroke-width="12"/>
+<!-- right front leg: fracture and displaced lower part -->
+<path d="M858 604 L918 595 924 682 874 704 842 667Z" fill="url(#wood)" stroke="#52291e" stroke-width="12"/>
+<path d="M871 700 L917 679 1018 811 948 824Z" fill="url(#wood)" stroke="#52291e" stroke-width="12"/>
+<path d="M847 668 l31 8 -19 26 37 4 -48 31" fill="none" stroke="#f0c6a8" stroke-width="9"/>
+<!-- wood splinters and floor scratches -->
+<g fill="#8f402d" stroke="#52291e" stroke-width="4">
+  <path d="M840 735l-74 35 84-7z"/><path d="M902 742l45 54-57-39z"/><path d="M807 711l-55 4 61 14z"/>
+</g>
+<g fill="none" stroke="#75685b" stroke-width="7" stroke-linecap="round" opacity=".75">
+  <path d="M935 830l185-20"/><path d="M952 849l131 9"/><path d="M455 821l-92 15"/>
+</g>
+<!-- recognizable irregular stone -->
+<path d="M534 470 C501 407 528 318 598 272 C645 188 789 158 882 206 C980 217 1047 305 1030 399 C1053 454 1012 511 944 532 C818 566 642 548 562 510Z" fill="url(#rock)" stroke="#22231f" stroke-width="16"/>
+<path d="M617 300 C700 230 836 218 924 264" fill="none" stroke="#969087" stroke-width="18" opacity=".48" stroke-linecap="round"/>
+<path d="M579 421 C670 464 871 481 980 420" fill="none" stroke="#272824" stroke-width="15" opacity=".62"/>
+<g fill="#8b877f" opacity=".42"><circle cx="688" cy="310" r="24"/><circle cx="905" cy="351" r="18"/><circle cx="777" cy="429" r="15"/></g>
+</svg>

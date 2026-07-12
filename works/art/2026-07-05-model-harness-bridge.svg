@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Model × Harness Compatibility</title>
+  <desc id="desc">A weekly diary illustration of a luminous language model cloud bridged to a disciplined tool harness above a dark desk at dawn.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="55%" stop-color="#0b1728"/>
+      <stop offset="100%" stop-color="#140d14"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1b2232"/>
+      <stop offset="50%" stop-color="#221b28"/>
+      <stop offset="100%" stop-color="#141822"/>
+    </linearGradient>
+    <radialGradient id="dawn" cx="50%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#1e3554" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#103053" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#07111f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowAmber" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#17304d" stroke-opacity="0.25" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#dawn)"/>
+
+  <ellipse cx="360" cy="205" rx="220" ry="120" fill="#2fb9ff" fill-opacity="0.08"/>
+  <ellipse cx="1260" cy="225" rx="250" ry="140" fill="#ffb347" fill-opacity="0.08"/>
+
+  <g opacity="0.95">
+    <path d="M220 320 C250 210, 430 170, 520 255 C570 210, 650 235, 680 305 C760 320, 785 420, 722 475 C708 540, 636 588, 558 575 C501 626, 403 622, 345 578 C258 596, 171 545, 155 462 C109 430, 106 357, 220 320Z"
+          fill="#0f2a3f" stroke="#45d6ff" stroke-width="3"/>
+    <g fill="#7fe4ff" font-family="JetBrains Mono, monospace" font-size="20" filter="url(#glowCyan)">
+      <text x="250" y="310">&lt;/&gt;</text>
+      <text x="360" y="280">{ json }</text>
+      <text x="505" y="320">λ</text>
+      <text x="280" y="405">schema?</text>
+      <text x="445" y="435">tool()</text>
+      <text x="590" y="390">[]</text>
+      <text x="320" y="510">oldText → newText</text>
+      <text x="510" y="535">agent</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="980" y="170" width="390" height="420" rx="24" fill="#141b28" stroke="#f7b955" stroke-width="3"/>
+    <rect x="1020" y="220" width="310" height="72" rx="14" fill="#0d2435" stroke="#64d8ff" stroke-width="2"/>
+    <rect x="1020" y="322" width="310" height="72" rx="14" fill="#13281f" stroke="#67e2a3" stroke-width="2"/>
+    <rect x="1020" y="424" width="310" height="72" rx="14" fill="#24192b" stroke="#c29bff" stroke-width="2"/>
+    <rect x="1020" y="526" width="310" height="36" rx="10" fill="#2a2216" stroke="#ffcc73" stroke-width="1.5"/>
+    <g fill="#d8edf9" font-family="JetBrains Mono, monospace" font-size="22">
+      <text x="1050" y="265">input schema</text>
+      <text x="1050" y="367">tool calls</text>
+      <text x="1050" y="469">verification</text>
+      <text x="1050" y="550">retry • constrain • log</text>
+    </g>
+    <g stroke="#f7b955" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M1000 256 H962"/>
+      <path d="M1000 358 H962"/>
+      <path d="M1000 460 H962"/>
+      <path d="M1000 544 H962"/>
+    </g>
+  </g>
+
+  <g filter="url(#glowAmber)">
+    <path d="M690 360 C760 325, 838 325, 907 360" stroke="#ffbf66" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M700 402 C770 367, 830 367, 900 402" stroke="#83e2ff" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="8 10"/>
+    <path d="M710 445 C770 415, 828 415, 888 445" stroke="#ffd89c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g fill="#ffe7b7" font-family="JetBrains Mono, monospace" font-size="18">
+      <text x="748" y="347">plug</text>
+      <text x="770" y="390">[]</text>
+      <text x="781" y="435">{}</text>
+    </g>
+  </g>
+
+  <g transform="translate(748 535)">
+    <circle cx="0" cy="0" r="22" fill="#0f1825" stroke="#8cf0ff" stroke-width="2"/>
+    <circle cx="0" cy="-5" r="7" fill="#8cf0ff"/>
+    <path d="M-10 14 Q0 3 10 14" stroke="#8cf0ff" stroke-width="2" fill="none"/>
+    <path d="M-42 20 Q-10 -10 16 6" stroke="#8cf0ff" stroke-width="2" fill="none" opacity="0.75"/>
+    <path d="M40 17 Q16 -6 -14 2" stroke="#ffbf66" stroke-width="2" fill="none" opacity="0.85"/>
+  </g>
+
+  <rect x="0" y="700" width="1600" height="200" fill="url(#desk)"/>
+  <ellipse cx="800" cy="735" rx="500" ry="38" fill="#0a0d15" opacity="0.65"/>
+  <g opacity="0.9">
+    <rect x="500" y="655" width="230" height="130" rx="16" fill="#111722" stroke="#2f526e" stroke-width="2"/>
+    <rect x="870" y="648" width="260" height="142" rx="16" fill="#121821" stroke="#5e4e2f" stroke-width="2"/>
+    <rect x="548" y="682" width="138" height="8" rx="4" fill="#45d6ff" opacity="0.55"/>
+    <rect x="548" y="706" width="102" height="8" rx="4" fill="#45d6ff" opacity="0.28"/>
+    <rect x="914" y="680" width="170" height="8" rx="4" fill="#f7b955" opacity="0.5"/>
+    <rect x="914" y="704" width="126" height="8" rx="4" fill="#f7b955" opacity="0.24"/>
+  </g>
+
+  <g font-family="JetBrains Mono, monospace" fill="#d6e7f5">
+    <text x="112" y="96" font-size="26" opacity="0.9">week note illustration</text>
+    <text x="112" y="132" font-size="52" font-weight="700">model × harness compatibility</text>
+    <text x="112" y="170" font-size="22" opacity="0.72">能力不是只在模型裡，也長在介面紀律與接線方式裡。</text>
+  </g>
+</svg>

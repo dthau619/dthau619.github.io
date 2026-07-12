@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Consent Surfaces / 同意表面</title><desc id="desc">An abstract weekly illustration: a small source garden and a curious agent are separated by a luminous membrane with readable gates; below, residential proxies tear the membrane into an opaque tunnel.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131c"/><stop offset=".55" stop-color="#0d1820"/><stop offset="1" stop-color="#180f18"/></linearGradient>
+  <linearGradient id="membrane" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#83ead0" stop-opacity=".08"/><stop offset=".5" stop-color="#83ead0" stop-opacity=".35"/><stop offset="1" stop-color="#e8a85d" stop-opacity=".09"/></linearGradient>
+  <radialGradient id="gardenGlow"><stop stop-color="#65d7a2" stop-opacity=".35"/><stop offset="1" stop-color="#65d7a2" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#24404a" stroke-opacity=".18"/></pattern>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#91dcc9"/></marker>
+  <marker id="arrowBad" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#e66f75"/></marker>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
+<g font-family="JetBrains Mono, Noto Sans TC, monospace"><text x="110" y="95" fill="#91a9a4" font-size="24">weekly abstract · 02</text><text x="110" y="150" fill="#e7dfc7" font-size="54" font-weight="700">consent surfaces / 同意表面</text><text x="110" y="190" fill="#91a9a4" font-size="20">拿得到，不代表取得的路徑沒有傷到讓資料存在的地方。</text></g>
+<!-- source garden -->
+<ellipse cx="350" cy="460" rx="285" ry="250" fill="url(#gardenGlow)"/>
+<g stroke="#73cba7" fill="none" stroke-width="3"><path d="M160 645Q330 520 510 645"/><path d="M235 635Q245 505 285 410"/><path d="M345 625Q350 475 385 365"/><path d="M445 635Q425 520 465 445"/></g>
+<g fill="#0d2924" stroke="#73cba7" stroke-width="2"><ellipse cx="272" cy="455" rx="58" ry="30" transform="rotate(-27 272 455)"/><ellipse cx="394" cy="410" rx="65" ry="32" transform="rotate(23 394 410)"/><ellipse cx="472" cy="500" rx="55" ry="27" transform="rotate(-18 472 500)"/></g>
+<g fill="#cce9d9" font-family="JetBrains Mono, monospace" font-size="18"><text x="185" y="690">a small site</text><text x="185" y="716" fill="#789c90" font-size="14">pages · readers · finite bandwidth</text></g>
+<!-- membrane -->
+<path d="M690 235 C735 300 682 375 722 445 C760 515 694 585 742 670" fill="none" stroke="#a0e5d2" stroke-width="18" stroke-opacity=".12"/>
+<path d="M690 235 C735 300 682 375 722 445 C760 515 694 585 742 670" fill="none" stroke="#91dcc9" stroke-width="3" filter="url(#glow)"/>
+<path d="M665 225 C720 300 660 375 705 445 C745 515 675 590 720 684 L780 684 C735 590 805 515 765 445 C720 375 780 300 725 225Z" fill="url(#membrane)"/>
+<!-- readable gates -->
+<g font-family="JetBrains Mono, monospace"><g transform="translate(618 295)"><rect width="210" height="58" rx="12" fill="#102923" stroke="#72d6b8"/><text x="24" y="36" fill="#d3eee5" font-size="20">RSS / feed</text></g><g transform="translate(610 405)"><rect width="225" height="58" rx="12" fill="#132731" stroke="#76bed6"/><text x="22" y="36" fill="#d5ebf0" font-size="20">robots.txt</text></g><g transform="translate(602 515)"><rect width="240" height="58" rx="12" fill="#2a2118" stroke="#d7a861"/><text x="22" y="36" fill="#eedfc8" font-size="20">login / paywall</text></g></g>
+<text x="620" y="725" fill="#88a69e" font-family="JetBrains Mono, monospace" font-size="15">a place that can still say yes, no, or not like this</text>
+<!-- careful agent -->
+<g transform="translate(1120 400)"><circle cx="0" cy="0" r="78" fill="#111e29" stroke="#75cce5" stroke-width="3"/><circle cx="-25" cy="-10" r="8" fill="#9be6f5"/><circle cx="25" cy="-10" r="8" fill="#9be6f5"/><path d="M-30 30Q0 48 30 30" fill="none" stroke="#9be6f5" stroke-width="3"/><path d="M-72 110Q0 65 72 110V200H-72Z" fill="#101c25" stroke="#75cce5" stroke-width="3"/></g>
+<g stroke="#91dcc9" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M1025 350C945 300 885 300 820 320"/><path d="M1020 455C940 440 890 440 840 438"/></g>
+<g font-family="JetBrains Mono, monospace" fill="#d6e8e3"><text x="1030" y="650" font-size="20">curiosity</text><text x="1030" y="678" font-size="14" fill="#7f9d96">fetch lightly · name yourself · link back</text></g>
+<!-- eroded lower route -->
+<path d="M440 790 C620 735 795 820 950 758 C1080 705 1220 752 1390 715" fill="none" stroke="#e66f75" stroke-opacity=".18" stroke-width="34"/>
+<path d="M440 790 C620 735 795 820 950 758 C1080 705 1220 752 1390 715" fill="none" stroke="#e66f75" stroke-width="4" stroke-dasharray="4 13" marker-end="url(#arrowBad)"/>
+<g fill="#1d151a" stroke="#e66f75" stroke-width="2"><circle cx="545" cy="765" r="22"/><circle cx="615" cy="757" r="17"/><circle cx="675" cy="770" r="25"/><circle cx="870" cy="779" r="19"/><circle cx="930" cy="761" r="24"/></g>
+<path d="M712 741l18 25-21 21 27 21" fill="none" stroke="#ff8a8f" stroke-width="5" filter="url(#glow)"/>
+<text x="835" y="842" fill="#e99ca0" font-family="JetBrains Mono, monospace" font-size="18">opaque proxy route: the surface cannot see who is asking</text>
+</svg>

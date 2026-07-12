@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">A house without walls at night</title>
+  <desc id="desc">An abstract nocturnal floor plan floating in dark water. Four incomplete rooms surround a warm central hearth. Open thresholds and thin paths connect a desk, an envelope, a bowl, and an empty frame. There is no text in the image.</desc>
+  <defs>
+    <radialGradient id="night" cx="50%" cy="48%" r="72%"><stop offset="0" stop-color="#102735"/><stop offset=".62" stop-color="#08131e"/><stop offset="1" stop-color="#040910"/></radialGradient>
+    <radialGradient id="hearth" cx="50%" cy="54%" r="55%"><stop offset="0" stop-color="#ffe3a0"/><stop offset=".28" stop-color="#e9a55b"/><stop offset=".72" stop-color="#81483a" stop-opacity=".55"/><stop offset="1" stop-color="#18232a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="water" x1="0" x2="1"><stop stop-color="#163842" stop-opacity=".15"/><stop offset=".5" stop-color="#77b8aa" stop-opacity=".45"/><stop offset="1" stop-color="#163842" stop-opacity=".12"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="860" fill="url(#night)"/>
+  <g opacity=".34" fill="none" stroke="#4c827e">
+    <path d="M0 145 C210 105 315 188 525 145 S890 110 1090 159 1280 176 1400 138"/>
+    <path d="M0 715 C225 758 354 678 558 718 S913 760 1110 711 1285 690 1400 728"/>
+    <path d="M135 0 C96 173 185 296 139 463 S92 714 157 860"/>
+    <path d="M1250 0 C1303 171 1215 310 1260 470 S1302 715 1241 860"/>
+  </g>
+  <ellipse cx="700" cy="435" rx="255" ry="205" fill="url(#hearth)" opacity=".46" filter="url(#soft)"/>
+  <!-- Open room fragments: no closed walls -->
+  <g fill="none" stroke="#668b83" stroke-width="5" stroke-linecap="round">
+    <path d="M270 310 V160 H500 M550 160 H615"/>
+    <path d="M785 160 H850 M900 160 H1130 V310"/>
+    <path d="M270 550 V705 H500 M550 705 H615"/>
+    <path d="M785 705 H850 M900 705 H1130 V550"/>
+  </g>
+  <g fill="none" stroke="#b5c9b7" stroke-width="2" opacity=".55" stroke-dasharray="2 12" stroke-linecap="round">
+    <path d="M500 160 Q700 270 700 375"/><path d="M900 160 Q700 270 700 375"/>
+    <path d="M500 705 Q700 610 700 492"/><path d="M900 705 Q700 610 700 492"/>
+  </g>
+  <!-- central hearth, imperfect circle and a vacant seat -->
+  <g filter="url(#glow)">
+    <circle cx="700" cy="435" r="61" fill="#d8894e" opacity=".24"/>
+    <path d="M664 448 Q678 397 700 420 Q724 382 740 447 Q719 476 700 485 Q680 475 664 448Z" fill="#f2bd67"/>
+  </g>
+  <path d="M621 517 q79 35 158 0" fill="none" stroke="#d9c89e" stroke-width="5" opacity=".7"/>
+  <path d="M650 529 v31 m100-31 v31" stroke="#d9c89e" stroke-width="5" opacity=".7"/>
+  <!-- upper left: drawing table, pigment, unfinished arc -->
+  <g stroke="#9fc0b4" fill="none" stroke-width="4">
+    <path d="M330 225 H520 L499 289 H350Z"/>
+    <path d="M365 289 v35 m104-35 v35"/>
+    <circle cx="380" cy="252" r="13" fill="#ba674d" stroke="none"/>
+    <circle cx="420" cy="248" r="9" fill="#e4b86a" stroke="none"/>
+    <path d="M450 272 Q497 210 548 239" stroke="#e8dfc7" stroke-width="3"/>
+  </g>
+  <!-- upper right: unopened envelope under a small window -->
+  <g stroke="#9fc0b4" fill="none" stroke-width="4">
+    <path d="M892 217 h150 v86 H892Z"/><path d="m892 217 75 54 75-54"/>
+    <path d="M945 182 h68" stroke="#6a9e9c" stroke-width="8" opacity=".65"/>
+  </g>
+  <!-- lower left: bowl and one empty place -->
+  <g stroke="#9fc0b4" fill="none" stroke-width="4">
+    <ellipse cx="430" cy="624" rx="72" ry="25"/><path d="M359 624 q15 66 71 66t71-66"/>
+    <circle cx="430" cy="625" r="8" fill="#efc779" stroke="none"/>
+    <path d="M528 646 q30 12 56 0" opacity=".5"/>
+  </g>
+  <!-- lower right: empty frame deliberately facing outward -->
+  <g stroke="#9fc0b4" fill="none">
+    <path d="M892 583 h151 v101 H892Z" stroke-width="6"/>
+    <path d="M907 598 h121 v71 H907Z" stroke-width="2" opacity=".55"/>
+    <path d="M1043 633 q57 0 95 38" stroke="#e5b563" stroke-width="3" stroke-dasharray="3 10"/>
+  </g>
+  <!-- traversable waterways entering through the missing walls -->
+  <g fill="none" stroke="url(#water)" stroke-width="16" stroke-linecap="round">
+    <path d="M0 430 C180 355 260 472 410 424 S585 374 640 414"/>
+    <path d="M760 454 C870 501 1004 402 1120 451 S1300 480 1400 425"/>
+  </g>
+  <g fill="#b7d4c7" opacity=".62">
+    <circle cx="110" cy="404" r="3"/><circle cx="211" cy="414" r="2"/><circle cx="1180" cy="459" r="3"/><circle cx="1290" cy="452" r="2"/>
+  </g>
+</svg>

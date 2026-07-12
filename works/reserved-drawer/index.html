@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="短篇小說《預留的那一格》">
+  <title>預留的那一格</title>
+  <style>
+    :root {
+      --paper: #f3f0e9;
+      --ink: #24231f;
+      --muted: #6c685f;
+      --rule: #cbc5b9;
+      --link: #4b554e;
+    }
+    * { box-sizing: border-box; }
+    html { font-size: 18px; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      text-rendering: optimizeLegibility;
+    }
+    .skip {
+      position: fixed;
+      left: 1rem;
+      top: 1rem;
+      z-index: 2;
+      padding: .65rem .85rem;
+      background: var(--ink);
+      color: var(--paper);
+      transform: translateY(-180%);
+    }
+    .skip:focus { transform: none; }
+    main {
+      width: min(38rem, calc(100% - 3rem));
+      margin: 0 auto;
+      padding: clamp(3.5rem, 10vw, 7rem) 0 7rem;
+    }
+    nav { margin-bottom: clamp(4rem, 12vw, 7.5rem); }
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      color: var(--muted);
+      font-family: system-ui, sans-serif;
+      font-size: .78rem;
+      letter-spacing: .08em;
+      text-decoration: none;
+    }
+    nav a:hover { color: var(--ink); }
+    header { margin-bottom: 4.5rem; }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 8vw, 3.25rem);
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: .09em;
+    }
+    .story p {
+      margin: 0 0 1.65em;
+      font-size: 1rem;
+      line-height: 2.05;
+      letter-spacing: .045em;
+      text-align: justify;
+      text-justify: inter-ideograph;
+    }
+    .story p:last-child { margin-bottom: 0; }
+    footer {
+      margin-top: 5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-family: system-ui, sans-serif;
+      font-size: .72rem;
+      letter-spacing: .08em;
+    }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+    @media (max-width: 520px) {
+      html { font-size: 17px; }
+      main { width: min(100% - 2rem, 38rem); padding-top: 2rem; padding-bottom: 4.5rem; }
+      nav { margin-bottom: 3.5rem; }
+      header { margin-bottom: 3.25rem; }
+      .story p { line-height: 1.95; letter-spacing: .025em; text-align: left; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
+    @media print {
+      body { background: #fff; }
+      nav, footer { display: none; }
+      main { width: 36rem; padding: 2rem 0; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#story">跳到正文</a>
+  <main>
+    <nav aria-label="返回"><a href="../">← 展示櫃</a></nav>
+    <article id="story">
+      <header><h1>預留的那一格</h1></header>
+      <div class="story">
+        <p>每天收攤前，秀蘭都會在冰櫃最下面留一格空位。</p>
+        <p>阿進來修過兩次。第一次換滑軌，第二次拆下櫃門，拿水平尺壓在水泥地上，說地板往排水溝斜了半公分，哪一台冰櫃放久都會歪。</p>
+        <p>「不是抽屜。」秀蘭說。</p>
+        <p>她把午仔魚一尾尾排進上層。最下面那格洗得很乾淨，只墊一張舊報紙。日期是前年八月十七日。</p>
+        <p>阿進認得那天。颱風擦過西南邊，漁港封了兩天。他弟弟阿澤沒回來。</p>
+        <p>市場的人說船翻了。秀蘭不說。失蹤證明、保險、牌位都辦完了，她還是每天留著那一格。阿澤出海前說，回來時冰櫃會不夠放。</p>
+        <p>「今天也空著？」阿進問。</p>
+        <p>「你修你的。」</p>
+        <p>阿進把工具箱拖到旁邊。他今天不是來修冰櫃。區公所下週要換市場電線，每攤得繳八千塊。通知壓在磅秤下，沾了一枚魚鱗。</p>
+        <p>「我幫妳填延期。」</p>
+        <p>「不用。」</p>
+        <p>「不繳會斷電。」</p>
+        <p>「斷就斷。」</p>
+        <p>秀蘭拿水沖砧板。魚鱗聚在排水孔四周，她用鞋尖把它們推進去。</p>
+        <p>阿進從口袋掏出一疊紙。最上面不是延期申請，是船籍註銷書。那艘船法律上還有一半屬於秀蘭。她簽名，港邊回收場就付三萬六。</p>
+        <p>「船都沒了，他們買什麼？」</p>
+        <p>「引擎登記，還有號碼。可以補去別艘船。」</p>
+        <p>「你早就談好了？」</p>
+        <p>「人家只等簽名。」</p>
+        <p>「你拿多少？」</p>
+        <p>阿進把紙放進空抽屜，壓在報紙上。「兩千介紹費。」</p>
+        <p>水龍頭還開著。秀蘭抬頭看他，沒罵。她把手伸進魚腹，抓出一把暗紅色的內臟，丟進藍桶。</p>
+        <p>「你哥的船號，也拿去補別人的船？」</p>
+        <p>「船號不會游回來。」</p>
+        <p>「你弟會？」</p>
+        <p>阿進關掉水龍頭。</p>
+        <p>隔壁雞攤拉下半面鐵門。市場深處有人把剩菜倒進塑膠袋，菜汁一路滴向後門。秀蘭在圍裙上擦手，拿起註銷書，直接翻到最後一頁。</p>
+        <p>阿進把筆遞過去。</p>
+        <p>她簽的是阿澤的名字。</p>
+        <p>「這不能用。」</p>
+        <p>「你不是很會處理？」</p>
+        <p>「我要的是妳的名字。」</p>
+        <p>秀蘭把筆壓回紙上。墨在阿澤兩個字的最後一撇積成一滴。她把紙推回去。</p>
+        <p>「拿去。錢也給你。」</p>
+        <p>「我拿偽簽去會出事。」</p>
+        <p>「那就不要拿。」</p>
+        <p>阿進站著沒動。前年他租下巷口店面做冷氣行，秀蘭看過那塊藍底白字的新招牌。三個月後，房東來拆，四個螺絲有一個鏽死，敲了很久。</p>
+        <p>秀蘭把冰櫃上層推回去，剩那格還開著。壓縮機震了一下，報紙邊角被風吹起。註銷書上，阿澤的名字露在日期旁邊。</p>
+        <p>「妳要留到什麼時候？」阿進問。</p>
+        <p>「留什麼？」</p>
+        <p>她把空抽屜整個拉出來。阿進彎腰去拿報紙，秀蘭卻提起藍桶，把魚內臟倒進去，又鏟了兩盆碎冰蓋上。</p>
+        <p>「明早餵港邊的貓。」</p>
+        <p>抽屜滿了。碎冰間滲出淡紅的水，浸過前年八月十七日，也浸過那個簽錯位置的名字。</p>
+        <p>阿進伸手去拿註銷書。秀蘭先一步關上抽屜。</p>
+        <p>「明天再說。」</p>
+      </div>
+    </article>
+    <footer>短篇小說</footer>
+  </main>
+</body>
+</html>
